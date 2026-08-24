@@ -41,7 +41,7 @@ Every time code is pushed to this repository, the system independently updates t
 1. Ensure both **Jenkins** and **Docker** processes are actively running on your Ubuntu server.
 2. Fire up the ngrok tunnel forwarding to your local Jenkins port:
    ```bash
-   ngrok http 8080
+   ngrok http x.x.x
    ```
 3. Verify that your GitHub Repository Webhook is configured with the updated ngrok forwarding URL, appending the `/github-webhook/` suffix.
 4. Modify a file locally, commit the changes, and deploy them to the world:
