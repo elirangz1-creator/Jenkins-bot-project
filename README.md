@@ -1,4 +1,4 @@
-## 🚀 Automated DevOps CI/CD Pipeline (GitHub ➔ Jenkins ➔ Docker ➔ Slack)
+### 🚀 Automated DevOps CI/CD Pipeline (GitHub ➔ Jenkins ➔ Docker ➔ Slack)
 
 This project demonstrates a fully automated CI/CD DevOps pipeline for a Dockerized web application. 
 Every time code is pushed to this repository, the system independently updates the production server and dispatches real-time status updates directly to Slack.
